@@ -1,0 +1,58 @@
+body{
+    background-color: darkgray;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+    padding: 15px;
+    background-color: blanchedalmond;
+    border: 3px firebrick solid;
+}
+
+.container p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.heading{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    word-spacing: 0.8em;
+}
+
+.hover-heading{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    letter-spacing: .1em;
+    background-color: white;
+    color: black;
+    padding: 2px;
+    width: 50%;
+    margin: auto;
+}
+
+.hover-heading:hover{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    letter-spacing: .1em;
+    background-color: firebrick;
+    color: white;
+    padding: 2px;
+    width: 50%;
+    margin: auto;
+}
+
+.image{
+    background: url('../images/rob.png');
+    width: 250px;
+    height: 250px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
