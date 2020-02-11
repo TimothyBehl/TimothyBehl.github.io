@@ -3,9 +3,6 @@ body{
 }
 
 .container{
-    width: 70%;
-    margin: auto;
-    padding: 15px;
     background-color: blanchedalmond;
     border: 3px firebrick solid;
 }
@@ -14,6 +11,7 @@ body{
     font-family: 'Courier New', Courier, monospace;
     font-weight: normal;
     font-size: 18px;
+    border: 2px solid firebrick;
 }
 
 .heading{
@@ -31,9 +29,6 @@ body{
     letter-spacing: .1em;
     background-color: white;
     color: black;
-    padding: 2px;
-    width: 50%;
-    margin: auto;
 }
 
 .hover-heading:hover{
@@ -42,17 +37,11 @@ body{
     letter-spacing: .1em;
     background-color: firebrick;
     color: white;
-    padding: 2px;
-    width: 50%;
-    margin: auto;
 }
 
 .image{
     background: url('../images/rob.png');
     width: 250px;
     height: 250px;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
+    border: 2px solid firebrick;
 }
